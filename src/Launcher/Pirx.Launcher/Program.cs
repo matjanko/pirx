@@ -1,8 +1,15 @@
+
+
+using System.Reflection;
+using Pirx.Shared.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
+var assemblies = new List<Assembly>();
 
 // Add services to the container.
-
+builder.Services.AddInfrastructure(assemblies);
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
