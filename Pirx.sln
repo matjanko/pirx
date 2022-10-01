@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{284E3BA8-BE8B-4702-86F1-48884DB7664D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Launcher", "Launcher", "{69E945C7-B64E-4F68-A865-216FDBA3C88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{37341CE7-C88E-4794-99A3-2E98C5784A77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E45451CD-C23A-4611-8E9A-B7E5FC3827C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirx.Launcher", "src\Launcher\Pirx.Launcher\Pirx.Launcher.csproj", "{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69E945C7-B64E-4F68-A865-216FDBA3C88D} = {284E3BA8-BE8B-4702-86F1-48884DB7664D}
+		{37341CE7-C88E-4794-99A3-2E98C5784A77} = {284E3BA8-BE8B-4702-86F1-48884DB7664D}
+		{E45451CD-C23A-4611-8E9A-B7E5FC3827C2} = {284E3BA8-BE8B-4702-86F1-48884DB7664D}
+		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F} = {69E945C7-B64E-4F68-A865-216FDBA3C88D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
