@@ -19,6 +19,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirx.Modules.Expenses.Api", "src\Modules\Expenses\Pirx.Modules.Expenses.Api\Pirx.Modules.Expenses.Api.csproj", "{D2FEFCAF-A331-4394-9DDD-CEDD348E04A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirx.Modules.Expenses.Core", "src\Modules\Expenses\Pirx.Modules.Expenses.Core\Pirx.Modules.Expenses.Core.csproj", "{07494849-E4D4-45D5-AE7B-C5FFF1F10936}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{F6BCD21F-1CE5-43EF-8F57-6FCB821DC03F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{52387BE2-F02E-4E09-9A8F-451D3CCB0F40}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\sql\database.sql = scripts\sql\database.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +41,7 @@ Global
 		{C861B7A5-3A15-412D-9F1A-ACF355408F50} = {37341CE7-C88E-4794-99A3-2E98C5784A77}
 		{D2FEFCAF-A331-4394-9DDD-CEDD348E04A7} = {C861B7A5-3A15-412D-9F1A-ACF355408F50}
 		{07494849-E4D4-45D5-AE7B-C5FFF1F10936} = {C861B7A5-3A15-412D-9F1A-ACF355408F50}
+		{52387BE2-F02E-4E09-9A8F-451D3CCB0F40} = {F6BCD21F-1CE5-43EF-8F57-6FCB821DC03F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8A107E2C-B891-4F1A-86E9-9A8380B10E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
