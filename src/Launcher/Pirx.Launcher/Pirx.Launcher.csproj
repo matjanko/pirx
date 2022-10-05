@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Expenses\Pirx.Modules.Expenses.Api\Pirx.Modules.Expenses.Api.csproj" />
       <ProjectReference Include="..\..\Shared\Pirx.Shared.Infrastructure\Pirx.Shared.Infrastructure.csproj" />
     </ItemGroup>
 
