@@ -7,12 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
+      <ProjectReference Include="..\..\..\Shared\Pirx.Shared.Abstractions\Pirx.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\Pirx.Modules.Expenses.Core\Pirx.Modules.Expenses.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Shared\Pirx.Shared.Abstractions\Pirx.Shared.Abstractions.csproj" />
-      <ProjectReference Include="..\Pirx.Modules.Expenses.Core\Pirx.Modules.Expenses.Core.csproj" />
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+        <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.1\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+        <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.1\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

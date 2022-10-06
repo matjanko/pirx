@@ -8,6 +8,7 @@ var modules = ModuleLoader.LoadModules(assemblies);
 // Add services to the container.
 builder.Services.AddInfrastructure(assemblies);
 builder.Services.AddControllers();
+builder.Services.Configure<RouteOptions>(c => c.LowercaseUrls = true);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
