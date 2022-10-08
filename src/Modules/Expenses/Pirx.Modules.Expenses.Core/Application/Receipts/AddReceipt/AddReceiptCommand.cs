@@ -2,7 +2,4 @@
 
 namespace Pirx.Modules.Expenses.Core.Application.Receipts.AddReceipt;
 
-public class AddReceiptCommand : ICommand
-{
-    
-}
+public record AddReceiptCommand(DateTime IssueDate, int IssuerId) : ICommand { }

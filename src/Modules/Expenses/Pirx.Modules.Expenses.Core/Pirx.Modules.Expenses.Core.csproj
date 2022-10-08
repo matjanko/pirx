@@ -7,11 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Domain" />
-      <Folder Include="Infrastructure" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
         <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       </Reference>
@@ -19,6 +14,12 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\Shared\Pirx.Shared.Abstractions\Pirx.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\..\..\Shared\Pirx.Shared.Infrastructure\Pirx.Shared.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.9" />
     </ItemGroup>
 
 </Project>
